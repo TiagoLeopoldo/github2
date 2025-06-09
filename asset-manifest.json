@@ -1,0 +1,11 @@
+{
+  "files": {
+    "main.js": "/github2/static/js/main.7a87fe4c.js",
+    "static/media/githublogo.svg": "/github2/static/media/githublogo.806e41695fa20d2940a4388780b10772.svg",
+    "index.html": "/github2/index.html",
+    "main.7a87fe4c.js.map": "/github2/static/js/main.7a87fe4c.js.map"
+  },
+  "entrypoints": [
+    "static/js/main.7a87fe4c.js"
+  ]
+}
