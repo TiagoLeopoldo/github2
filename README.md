@@ -1,70 +1,91 @@
-# Getting Started with Create React App
+# 🔍 GitHub Repository Finder
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![GitHub Stars](https://img.shields.io/github/stars/TiagoLeopoldo/github2?style=social)](https://github.com/TiagoLeopoldo/github2/stargazers)
 
-## Available Scripts
+Um aplicativo React que permite buscar e gerenciar repositórios do GitHub de forma intuitiva.
 
-In the project directory, you can run:
+🔗 **Repositório:** [github.com/TiagoLeopoldo/github2](https://github.com/TiagoLeopoldo/github2)
 
-### `npm start`
+## ✨ Funcionalidades
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- 🔎 Busca de repositórios pelo formato `usuário/repositório`
+- 📄 Visualização de informações básicas do repositório
+- 🔗 Acesso direto ao repositório no GitHub
+- 🗑️ Remoção de repositórios da lista
+- 🌙 Tema escuro padrão
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## 🛠️ Tecnologias Utilizadas
 
-### `npm test`
+- React.js
+- Styled Components
+- Axios
+- GitHub API v3
+- React DOM
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## 🚀 Como Executar
 
-### `npm run build`
+1. Clone o repositório:
+```bash
+git clone https://github.com/TiagoLeopoldo/github2.git
+```
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+2. Instale as dependências:
+```bash
+npm install
+```
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+3. Inicie o servidor:
+```bash
+npm start
+```
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## 📂 Estrutura do Projeto
 
-### `npm run eject`
+```bash
+src/
+├── assets/
+├── components/
+│   ├── Button/
+│   ├── Input/
+│   └── ItemRepo/
+├── pages/
+│   └── App.js
+├── services/
+│   └── api.js
+├── styles/
+└── index.js
+```
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## 🎨 Componentes Principais
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+| Componente   | Descrição                                  |
+|--------------|--------------------------------------------|
+| `Button`     | Botão estilizado com efeito hover          |
+| `Input`      | Campo de busca com estilo moderno          |
+| `ItemRepo`   | Card de exibição do repositório            |
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## 🌐 API
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+A aplicação utiliza a [API pública do GitHub](https://docs.github.com/en/rest) para:
+- Buscar informações de repositórios
+- Acessar dados públicos
+- Validar existência de repositórios
 
-## Learn More
+## 🤝 Contribuição
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Contribuições são bem-vindas! Siga estes passos:
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+1. Faça um fork do projeto
+2. Crie uma branch (`git checkout -b feature/AmazingFeature`)
+3. Commit suas mudanças (`git commit -m 'Add some AmazingFeature'`)
+4. Push para a branch (`git push origin feature/AmazingFeature`)
+5. Abra um Pull Request
 
-### Code Splitting
+## 📝 Licença
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+Distribuído sob a licença MIT. Veja `LICENSE` para mais informações.
 
-### Analyzing the Bundle Size
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Desenvolvido como projeto de estudos em React da Dio.me por [Tiago Leopoldo](https://github.com/TiagoLeopoldo)
